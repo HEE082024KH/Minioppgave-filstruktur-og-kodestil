@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Generic generic = new();
+        Console.WriteLine(generic);
     }
 }

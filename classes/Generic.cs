@@ -1,8 +1,8 @@
 public class Generic
 {
-  public Generic generic;
-  public Generic generic2;
-  public string something;
+  public Generic generic = new();
+  public Generic generic2 = new();
+  public string something = "";
   public double s0meth1ng;
 
   public void GenericStuff()
